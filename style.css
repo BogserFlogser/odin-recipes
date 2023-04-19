@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: rgba(47, 47, 221, 0.548);}
+
+.header-czech-cuisine {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(90, 160, 184, 0.527);
+}
+
+.blue {background-color: blue;}
+.red {background-color: red;}
+.white {background-color: rgb(255, 255, 255);}
+
+.flag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag { width: 100%;
+        height: 5px;}
+
+.charles-bridge {
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                }
+
+.cuisine-description {font-size: 18px;}
